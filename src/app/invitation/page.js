@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Invitation() {
@@ -27,10 +28,9 @@ export default function Invitation() {
         onClick={() => setModalOpen(true)}
         className=" w-[200px] h-[200px] top-[300px] absolute"
       >
-        <img
+        <Image
           alt="letter"
-          // width={"100%"}
-          // src="https://i.pinimg.com/564x/df/f6/2c/dff62cd1dc6ea125ff164b5ff0151ea8.jpg"
+          height={"100%"}
           src="letter-removebg-preview.png"
           width={"100%"}
         />
