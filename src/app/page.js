@@ -52,7 +52,7 @@ export default function Invitation() {
       <p className="text">tanid urilga irsen bn</p>
       <div
         onClick={() => setModalOpen(true)}
-        className=" w-[200px] h-[200px] top-[300px] absolute"
+        className="lttr w-fit h-fit top-[300px] absolute"
       >
         <Image
           alt="letter"

@@ -44,6 +44,61 @@ body {
   background-size: repeat;
 }
 
+.lttr {
+  animation-name: action;
+  animation-duration: 0.2s;
+  /* animation-fill-mode: forwards; */
+  animation-iteration-count: infinite;
+}
+
+@keyframes action {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0eg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* .lttr {
+  -webkit-animation: moveOpen 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes moveOpen {
+  from {
+    -webkit-transform: translate(0, -50px);
+  }
+  10% {
+    -webkit-transform: translate(0, 20px);
+  }
+  12% {
+    -webkit-transform: translate(0, 22px);
+  }
+  16% {
+    -webkit-transform: translate(0, 20px);
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+  }
+  85% {
+    -webkit-transform: translate(0, 25px);
+  }
+  to {
+    -webkit-transform: translate(0, -50px);
+  }
+} */
+
 .text {
   color: black;
   top: 200px;
