@@ -34,9 +34,14 @@ body {
 
 .cute {
   background-image: url("https://i.pinimg.com/736x/f7/84/17/f784179c3dada9508f893c89a6d03aae.jpg");
-  background-size: contain;
-  background-repeat: repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
   /* background-clip: content-box; */
+}
+
+.gorgeous {
+  background-image: url("https://i.pinimg.com/564x/ba/ce/06/bace0612a6393082b922a5b7bed78aa7.jpg");
+  background-size: repeat;
 }
 
 .text {
