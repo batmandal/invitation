@@ -31,3 +31,63 @@ body {
     text-wrap: balance;
   }
 }
+
+.cute {
+  background-image: url("https://i.pinimg.com/736x/f7/84/17/f784179c3dada9508f893c89a6d03aae.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+  /* background-clip: content-box; */
+}
+
+.text {
+  color: black;
+  top: 200px;
+  position: absolute;
+}
+
+.haha {
+  background-color: gray;
+}
+
+.letter {
+  animation-name: letterDone;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  /* bottom: 0; */
+}
+
+.finish {
+  animation-name: content;
+  animation-delay: 2s;
+  animation-duration: 2s;
+}
+@keyframes content {
+  0% {
+  }
+
+  100% {
+    transform: scale(2, 2);
+    /* width: 300px;
+    height: 300px; */
+  }
+}
+
+@keyframes letterDone {
+  0% {
+    background-color: pink;
+    bottom: 0%;
+  }
+  25% {
+    background-color: purple;
+  }
+  50% {
+    background-color: orange;
+  }
+  75% {
+    background-color: orange;
+  }
+  100% {
+    background-color: fuchsia;
+    bottom: 200px;
+  }
+}
