@@ -56,9 +56,9 @@ export default function Invitation() {
       >
         <Image
           alt="letter"
-          height={"100%"}
-          src="letter-removebg-preview.png"
-          width={"100%"}
+          src="/letter-removebg-preview.png"
+          width={150}
+          height={100}
         />
       </div>
     </div>
