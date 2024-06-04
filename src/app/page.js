@@ -47,12 +47,12 @@ export default function Invitation() {
       ></div>
       <div
         style={{ display: `${modalOpen == false ? "none" : "flex"}` }}
-        className="gorgeous w-[90vw]  h-[70vh] bg-white absolute z-20 rounded-2xl"
+        className="gorgeous w-[90vw]  h-[85vh] bg-white absolute z-20 rounded-2xl"
       ></div>
       <p className="text">tanid urilga irsen bn</p>
       <div
         onClick={() => setModalOpen(true)}
-        className="lttr w-fit h-fit top-[300px] absolute"
+        className="lttr w-fit h-fit top-[320px] absolute"
       >
         <Image
           alt="letter"
