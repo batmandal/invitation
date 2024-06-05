@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function Invitation() {
   const [modalOpen, setModalOpen] = useState(false);
   return (
-    <div className="cute flex flex-col w-[100vw] h-[100vh] max-h-[120vh] items-center justify-center  relative gap-[20px]">
+    <div className="cute flex flex-col w-[100vw] h-[100vh] max-h-[1200px] items-center justify-center  relative gap-[20px]">
       <div
         onClick={() => setModalOpen(false)}
         style={{ display: `${modalOpen == false ? "none" : "flex"}` }}
@@ -14,7 +14,7 @@ export default function Invitation() {
       ></div>
       <div
         style={{ display: `${modalOpen == false ? "none" : "flex"}` }}
-        className="gorgeous w-[90vw]  h-[85vh] max-h-[100vh] max-w-[430px]  absolute z-20 rounded-2xl px-[30px] py-[40px] flex-col items-center justify-center gap-[20px]"
+        className="gorgeous w-[90vw]  h-[85vh] max-h-[1000px] max-w-[430px]  absolute z-20 rounded-2xl px-[30px] py-[40px] flex-col items-center justify-center gap-[20px]"
       >
         <p
           style={{ textShadow: "0 0 3px #FF0000, 0 0 5px #0000FF" }}
@@ -34,7 +34,7 @@ export default function Invitation() {
             <Image src="/profile.jpg" alt="sticker3" width={170} height={100} />
           </div>
         </div>
-        <div className="w-full h-[50%] flex flex-col gap-[10px] justify-between ">
+        <div className="w-full h-[50%]  max-h-[600px] flex flex-col gap-[10px] justify-between ">
           <p
             className=" text-center font-serif text-xl text-white font-semibold"
             style={{ textShadow: "0 0 3px #FF0000, 0 0 5px #0000FF" }}
