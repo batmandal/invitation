@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function Invitation() {
   const [modalOpen, setModalOpen] = useState(false);
   return (
-    <div className="cute flex flex-col w-[100vw] h-[150vh] max-h-[1200px] items-center justify-center  relative gap-[20px]">
+    <div className="cute flex flex-col w-[100vw] h-[160vh] max-h-[1200px] items-center justify-center  relative gap-[20px]">
       <div
         onClick={() => setModalOpen(false)}
         style={{ display: `${modalOpen == false ? "none" : "flex"}` }}
@@ -14,7 +14,7 @@ export default function Invitation() {
       ></div>
       <div
         style={{ display: `${modalOpen == false ? "none" : "flex"}` }}
-        className="gorgeous w-[90vw]  h-[140vh] max-h-[1000px] max-w-[430px]  absolute z-20 rounded-2xl px-[30px] py-[40px] flex-col items-center justify-center gap-[20px]"
+        className="gorgeous w-[90vw]  h-[150vh] max-h-[1000px] max-w-[430px]  absolute z-20 rounded-2xl px-[30px] py-[40px] flex-col items-center justify-center gap-[20px]"
       >
         <p
           style={{ textShadow: "0 0 3px #FF0000, 0 0 5px #0000FF" }}
@@ -48,7 +48,7 @@ export default function Invitation() {
               className="text-white font-serif text-xl font-medium"
               style={{ textShadow: "0 0 3px #FF0000, 0 0 5px #0000FF" }}
             >
-              Хэзээ: 2024 оны 6-р сарын 9
+              Хэзээ: 2024 оны 6-р сарын 9нд 11:00 цагт
             </p>
             <p
               className="text-white font-serif text-xl font-medium"
