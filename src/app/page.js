@@ -59,7 +59,7 @@ export default function Invitation() {
           </div>
         </div>
       </div>
-      <p className="word text-blue-400 font-serif">Таньд урилга ирсэн байна</p>
+
       <div
         onClick={() => setModalOpen(true)}
         className="lttr w-fit h-fit top-[320px] "
@@ -71,6 +71,7 @@ export default function Invitation() {
           height={100}
         />
       </div>
+      <p className="word text-blue-400 font-serif">Таньд урилга ирсэн байна</p>
     </div>
   );
 }
