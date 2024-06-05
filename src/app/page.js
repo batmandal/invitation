@@ -48,7 +48,7 @@ export default function Invitation() {
               className="text-white font-serif text-xl font-medium"
               style={{ textShadow: "0 0 3px #FF0000, 0 0 5px #0000FF" }}
             >
-              Хэзээ: 2024 оны 6-р сарын 9нд
+              Хэзээ: 2024 оны 6-р сарын 9
             </p>
             <p
               className="text-white font-serif text-xl font-medium"
