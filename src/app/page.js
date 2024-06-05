@@ -56,8 +56,6 @@ export default function Invitation() {
           Урилга
         </p>
         <div className="w-full h-[30%] flex  justify-center">
-          {/* <Image src="/sticker1.webp" alt="sticker1" width={200} height={100} /> */}
-          {/* <Image src="/sticker2.webp" alt="sticker2" width={200} height={100} /> */}
           <div
             style={{
               borderRadius: "12px",
@@ -66,7 +64,6 @@ export default function Invitation() {
               overflow: "hidden",
             }}
           >
-            {" "}
             <Image src="/profile.jpg" alt="sticker3" width={170} height={100} />
           </div>
         </div>
