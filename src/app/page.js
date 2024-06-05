@@ -39,7 +39,7 @@ import { useState } from "react";
 export default function Invitation() {
   const [modalOpen, setModalOpen] = useState(false);
   return (
-    <div className="cute flex flex-col w-[100vw] h-[100vh] items-center justify-center bg-white relative">
+    <div className="cute flex flex-col w-[100vw] h-[100vh] items-center justify-center bg-white relative gap-[20px]">
       <div
         onClick={() => setModalOpen(false)}
         style={{ display: `${modalOpen == false ? "none" : "flex"}` }}
@@ -47,12 +47,12 @@ export default function Invitation() {
       ></div>
       <div
         style={{ display: `${modalOpen == false ? "none" : "flex"}` }}
-        className="gorgeous w-[90vw]  h-[85vh] bg-white absolute z-20 rounded-2xl"
+        className="gorgeous w-[90vw]  h-[85vh] max-w-[430px] bg-white absolute z-20 rounded-2xl"
       ></div>
-      <p className="text font-">tanid urilga irsen bn</p>
+      <p className="word text-blue-400 font-serif">Таньд урилга ирсэн байна</p>
       <div
         onClick={() => setModalOpen(true)}
-        className="lttr w-fit h-fit top-[320px] absolute"
+        className="lttr w-fit h-fit top-[320px] "
       >
         <Image
           alt="letter"

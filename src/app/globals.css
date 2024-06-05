@@ -40,8 +40,15 @@ body {
 }
 
 .gorgeous {
-  background-image: url("https://i.pinimg.com/564x/b3/06/5e/b3065e6030186248ca0bd971584b0553.jpg");
-  background-size: repeat;
+  background-image: url("https://i.pinimg.com/474x/90/e8/f0/90e8f025f0fce1f623656db30acba889.jpg");
+  background-size: cover;
+}
+
+.word {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 400;
+  /* background-color: aqua; */
 }
 
 .lttr {
