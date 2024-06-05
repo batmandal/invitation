@@ -33,14 +33,14 @@ body {
 }
 
 .cute {
-  background-image: url("https://i.pinimg.com/736x/f7/84/17/f784179c3dada9508f893c89a6d03aae.jpg");
+  background-image: url("https://i.pinimg.com/564x/3f/c3/49/3fc349c45000d162099dafdf525648fb.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   /* background-clip: content-box; */
 }
 
 .gorgeous {
-  background-image: url("https://i.pinimg.com/474x/90/e8/f0/90e8f025f0fce1f623656db30acba889.jpg");
+  background-image: url("https://i.pinimg.com/564x/71/31/ba/7131baf6fafd8a0c1d4aef8b1c049321.jpg");
   background-size: cover;
 }
 
